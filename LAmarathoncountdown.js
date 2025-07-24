@@ -7,9 +7,9 @@ const EVENT_NAME = "LA Marathon";
 
 // STEP 2: Set your start and end dates (Format: YYYY, MM-1, DD)
 // IMPORTANT: Months are 0-indexed, meaning January=0, February=1, etc.
-// Example: December 25, 2024 would be (2024, 11, 25)
-const START_DATE = new Date(2025, 7, 23);  // September 26, 2024
-const END_DATE = new Date(2026, 3, 8);    // July 15, 2025
+// Example: December 25, 2024 would be (2024, 12, 25)
+const START_DATE = new Date(2025, 6, 23);  // July 7th 2025
+const END_DATE = new Date(2026, 2, 8);    // March 8, 2026
 
 // STEP 3: Add your background image URL
 // Replace with your own image URL or leave blank for no image
@@ -22,7 +22,7 @@ const BG_COLOR = "#406260";       // Overlay color in hex format
 const BG_OVERLAY_OPACITY = 0.5;   // Overlay opacity (0-1)
 
 // Color settings for dots
-const COLOR_FILLED = new Color("#a6a60fff");         // Color for completed days
+const COLOR_FILLED = new Color("#4483e1ff");         // Color for completed days
 const COLOR_UNFILLED = new Color("#ffffff", 0.4);  // Color for remaining days
 
 // STEP 5: Layout settings
