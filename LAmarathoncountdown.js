@@ -36,3 +36,13 @@ const DOT_SHIFT_LEFT = 2;
 const YEAR_OFFSET = DOT_SHIFT_LEFT - 2;
 const DAYS_LEFT_OFFSET = 0;
 
+// ===================================================
+// ADVANCED CONFIGURATION
+// ===================================================
+
+const TODAY = new Date();
+const MS_PER_DAY = 86400000;
+
+const DAYS_TOTAL = Math.round((END_DATE-START_DATE) / MS_PER_DAY ) +1;
+const DAYS_SINCE_START = Math.max(0, Math.round((TODAY - START_DATE) / MS_PER_DAY));
+const DAYS_UNTIL_END = Math.max(0,Math.round((END_DATE - TODAY) / MS_PER_DAY));
