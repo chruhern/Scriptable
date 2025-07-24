@@ -14,7 +14,7 @@ const END_DATE = new Date(2026, 3, 8);    // July 15, 2025
 // STEP 3: Add your background image URL
 // Replace with your own image URL or leave blank for no image
 // To use a transparent background, use the transparent script, then upload it to the internet somewhere and link it here
-const BG_IMAGE_URL = "imgur.com/meow";
+const BG_IMAGE_URL = "https://github.com/chruhern/Scriptable/blob/main/images/LAmarathonCounterWidget.JPG?raw=true";
 
 // STEP 4: Customize the appearance (optional)
 // Background overlay color and opacity
